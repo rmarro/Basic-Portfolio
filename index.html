@@ -6,40 +6,42 @@
 	</head>
 
 	<body>
-		<div class="container">
-			<header>
-				<h1>Rachel Marro</h1>
-			</header>
 
-<!--Menu option on the top right side of the page-->
-			<nav>
-				<div class="topnav">				
+		<header>
+				<h1 id="name">Rachel Marro</h1>
+			
+			<!--Menu option on the top right side of the page-->
+				<nav class="topnav">
 					<a href="#about">About</a>
 					<a href="#portfolio">Portfolio</a>
-					<a href="#contact">Contact</a>
-				</div>	
-			</nav>
+					<a href="#contact">Contact</a>	
+				</nav>
+		</header>
 
+
+	
+	<!--container for all the middle stuff between header and footer-->
+		<div class="container">
 <!--About me, photo, and bio-->
-			<section>
-					<h2>About Me</h2>
-					<img src="http://lorempixel.com/400/200/"/>
-					<p>
-						Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!
+			<section class="main">
+				<h2>About Me</h2>
+				<img src="http://lorempixel.com/400/200/"/ width=200px>
+				<p id="bio">
+					Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!Hey everyone, this is my bio paragraph. I hope you like it!
 
-						Hey everyone, this is my bio paragraph. I hope you like it!
-					</p>
+					Hey everyone, this is my bio paragraph. I hope you like it!
+				</p>
 			</section>
 
 <!--Social Media links on the far right side-->
-			<aside>
+			<aside class="connect">
 				<h2>Connect with Me</h2>
-				<img src="assets/images/github_logo.png"/>
-				<img src="assets/images/linkedin_logo.png"/>
-				<img src="assets/images/overflow_logo.png"/>
+				<img src="assets/images/github_logo.png"/ width=50px>
+				<img src="assets/images/linkedin_logo.png"/ width=50px>
+				<img src="assets/images/overflow_logo.png"/ width=50px>
 			</aside>
 		</div>
-		
+<!-- fixed position allows you to scroll and have it stay where it is in the browser, so add that to header and footer-->
 		<footer>
 			<p>&copy Copyright 2017 Rachel Marro</p>
 		</footer>

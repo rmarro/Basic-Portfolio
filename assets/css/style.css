@@ -1,14 +1,31 @@
-.container {
-	width: 1024px;
-	margin: 0 auto;
+* {
+	box-sizing: border-box;
 }
 
+
 header {
+background: white;
+height: 68px;
+	
+}
+
+html, body {
+	background: grey;
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+#name {
 	background: #4aaaa5;
 	color: white;
-	padding: 5px;
 	text-align: center;
 	float: left;
+	margin-left: 50px;
+	margin-bottom: 0;
+	padding:15px;
 }
 
 .topnav {
@@ -21,10 +38,47 @@ header {
 	display: block;
 	color: black;
 	text-align: center;
-	padding: 20px;
+	padding: 15px;
 	text-decoration: none;
+	margin-top: 10px;
 }
 
-section {
-	clear:left;
+
+.container {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
+
+.main {
+	clear: both;
+	background: white;
+	float: left;
+	width: 75%;
+	padding: 15px;
+	padding-top: 5px;
+}
+
+.main img {
+	float: left;
+	margin-right: 15px;
+}
+
+#bio {
+
+}
+
+.connect {
+	float: left;
+	background: white;
+	width: 25%;
+}
+
+footer {
+	background: green;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	display: block;
+}
+
