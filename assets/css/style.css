@@ -11,7 +11,7 @@ header {
 	position: fixed;
 	background: #ffffff;
 	top: 0;
-	height: 78px;
+	height: 77px;
 	width: 100%;
 	border-bottom: 3px #cccccc solid;
 }
@@ -39,7 +39,7 @@ header nav {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: 15px;
+	margin-top: 20px;
 	left: 395px;
 }
 
@@ -80,6 +80,8 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-size: 30px;
+	border-bottom: 3px #dddddd solid;
+	padding-bottom: 25px;
 }
 
 .main {
@@ -98,17 +100,46 @@ h2 {
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 15px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 #bio {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	font-size: 18px;
-	border-top: 3px #dddddd solid;
-	padding-top: 10px;
 	line-height: 28px;
 }
+
+/* Contact me form */
+
+/* CHANGE THE NAMES OF "MAIN" TO "MAIN_ABOUT"
+ETC. THEN COPY/PASTE MAIN FORMATING
+THEN CHANGE AS NEEDED FOR EACH PAGE
+(MAKE SURE ANY OTHER STUFF GETS UPDATED TOO 
+	LIKE MAIN_ABOUT IMG) */
+
+input, textarea {
+	width: 100%;
+	line-height: 25px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	border: 1px #dddddd solid;
+	border-radius: 2px;
+	padding-left: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+
+#message {
+	height: 120px;
+}
+
+
 
 /* Connect social media links section */
 
