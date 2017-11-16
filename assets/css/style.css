@@ -31,7 +31,9 @@ h1 {
 	float: left;
 	margin-left: 50px;
 	margin-bottom: 0;
-	padding:20px;
+	padding: 21px;
+	font-size: 35px;
+	font-weight: bold;
 }
 
 /* Navigation bar top right */
@@ -84,6 +86,7 @@ h2 {
 	font-size: 30px;
 	border-bottom: 3px #dddddd solid;
 	padding-bottom: 25px;
+	font-weight: bold;
 }
 
 /* About me section */
@@ -94,6 +97,7 @@ h2 {
 	float: left;
 	width: 650px;
 	height: 430px;
+	padding-top: 25px;
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-right: 40px;
@@ -104,7 +108,7 @@ h2 {
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 15px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 #bio {
@@ -112,6 +116,11 @@ h2 {
 	color: #777777;
 	font-size: 18px;
 	line-height: 33px;
+	margin-top: 25px;
+}
+
+#bio p {
+	padding-bottom: 15px;
 }
 
 
@@ -123,6 +132,7 @@ h2 {
 	float: left;
 	width: 650px;
 	height: 950px;
+	padding-top: 25px;
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-right: 40px;
@@ -131,6 +141,7 @@ h2 {
 }
 
 .main_portfolio img {
+	margin-top: 30px;
 	margin-left: 30px;
 	margin-right: 15px;
 	margin-bottom: 30px;
@@ -144,6 +155,7 @@ h2 {
 	text-align: center;
 	padding-top: 12px;
 	position: absolute;
+	transition: background 0.25s;
 }
 
 .main_portfolio a {
@@ -151,29 +163,33 @@ h2 {
 	color: white;
 }
 
+.main_portfolio h4:hover {
+	background: #80c3c0;
+}
+
 #p1 {
 	left: 102px;
-	top: 350px;
+	top: 385px;
 }
 
 #p2 {
 	left: 401px;
-	top: 350px;
+	top: 385px;
 }
 
 #p3 {
 	left: 102px;
-	top: 609px;
+	top: 673px;
 }
 
 #p4 {
 	left: 401px;
-	top: 609px;
+	top: 673px;
 }
 
 #p5 {
 	left: 102px;
-	top: 868px;
+	top: 960px;
 }
 
 
@@ -185,10 +201,12 @@ h2 {
 	float: left;
 	width: 650px;
 	height: 480px;
+	padding-top: 25px;
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-right: 40px;
 	border: 2px #dddddd solid;
+	margin-bottom: 100px;
 }
 
 input, textarea {
@@ -205,6 +223,7 @@ input, textarea {
 form {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	margin-top: 25px;
 }
 
 
@@ -231,6 +250,8 @@ h3 {
 	width: 200px;
 	margin-left:20px;
 	margin-top: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .connect {
@@ -251,8 +272,12 @@ h3 {
 /* remove weird tiny lines under images when links added */
 .connect a {
 	text-decoration: none;
+	transition: opacity .25s;
 }
 
+.connect a:hover {
+	opacity: .8;
+}
 
 
 footer {
@@ -265,5 +290,6 @@ footer {
 	text-align: center;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	border-top: 6px #4aaaa5 solid;
+	padding: 20px;
 }
 
