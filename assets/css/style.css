@@ -39,11 +39,11 @@ h1 {
 /* Navigation bar top right */
 
 header nav {
-	position: relative;
+ 	position: relative; 
 	display: inline-block;
 	vertical-align: middle;
 	margin-top: 20px;
-	left: 395px;
+ 	left: 410px; 
 }
 
 header nav ul {
@@ -60,11 +60,12 @@ header nav li {
 header nav li a {
 	text-decoration: none;
 	color: #777777;
-	transition: color 0.25s;
+	
 }
 
 header nav li a:hover {
 	color: #dddddd;
+	transition: color .25s;
 }
 
 li+li {border-left: 1px solid #dddddd }
@@ -96,8 +97,7 @@ h2 {
 	background: #ffffff;
 	float: left;
 	width: 650px;
-	height: 430px;
-	padding-top: 25px;
+	padding-top: 20px;
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-right: 40px;
@@ -106,7 +106,7 @@ h2 {
 
 .main_about img {
 	float: left;
-	margin-right: 15px;
+	margin-right: 25px;
 	margin-bottom: 15px;
 	margin-top: 30px;
 }
@@ -211,9 +211,9 @@ h2 {
 
 input, textarea {
 	width: 100%;
-	line-height: 25px;
+	line-height: 30px;
 	margin-bottom: 15px;
-	margin-top: 5px;
+	margin-top: 10px;
 	border: 1px #dddddd solid;
 	border-radius: 2px;
 	padding-left: 10px;
@@ -238,6 +238,7 @@ button {
 	color: white;
 	font-size: 15px;
 	border: none;
+	border-radius: 3px;
 }
 
 
